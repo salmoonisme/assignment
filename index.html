@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Burgernash Homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,200;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Burger<span>nash</span>.</a>
+
+      
+      <div class="navbar-extra">
+        <a href="#" id="menu"><i data-feather="menu"></i></a>
+        <div class="navbar-nav">
+          <a href="#">Home</a>
+          <a href="#review">Review</a>
+          <a href="#pricing">Price</a>
+        </div>
+      </div>
+    </nav>
+    <!-- <header id="header">
+    <h1>
+      <img
+        id="header-img"
+        src="image/burger.png"
+        alt="burger logo"
+      />
+    </h1>
+
+    <nav id="nav-bar">
+      <ul>
+        <li>
+          <a class="nav-link" href="#home"><u>Home</u></a>
+        </li>
+        <li>
+          <a class="nav-link" href="#review"><u>Review</u></a>
+        </li>
+        <li>
+          <a class="nav-link" href="#pricing"><u>Pricing</u></a>
+        </li>
+      </ul>
+    </nav>
+  </header> -->
+
+    <section id="home">
+      <h2>Home</h2>
+      <div id="premium_logo">
+        <i class="material-icons"
+          ><img src="image/quality.png" alt="premium logo"
+        /></i>
+        <p>
+          <strong>Premium</strong><br />Our burgers use only selected and
+          high-quality ingredients farmed by locals. Certified with ISO9001 also
+          identifies us as one of the cleanest kitchen in the state.
+        </p>
+      </div>
+      <div id="service_logo">
+        <i class="material-icons"
+          ><img src="image/cook.png" alt="service logo"
+        /></i>
+        <p>
+          <strong>Fast Services</strong><br />We make sure you recieve your
+          meals as soon as you finished the order. Our trained staffs are
+          working with love and care delivering your stop n' go meal.
+        </p>
+      </div>
+      <div id="quality_logo">
+        <i class="material-icons"
+          ><img src="image/trusted.png" alt="quality"
+        /></i>
+        <p>
+          <strong>Quality Assurances</strong><br />For every purchase you make,
+          we will ensure there are no damages or faults. Enjoy the experience!
+        </p>
+      </div>
+    </section>
+    <section id="review">
+      <h2>Review</h2>
+      <iframe
+        id="video"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/Wwgn5k_TzKM"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </section>
+    <section id="pricing">
+      <h2>Pricing</h2>
+      <div id="list-pricing">
+        <div id="basic">
+          <h3>Steakhouse Burger</h3>
+          <ul>
+            <li>Oven-Grilled Portobello</li>
+            <li>Semi-Dried Tomato</li>
+            <li>Sliced Zucchini</li>
+            <li>Chopped Chives</li>
+            <li>African Pepper</li>
+            <li>Brioche Bun</li>
+          </ul>
+          <p>$10.99</p>
+        </div>
+        <div id="standard">
+          <h3>Doublecheese Burger</h3>
+          <ul>
+            <li>Snake River Farm Wagyu</li>
+            <li>American Cheese</li>
+            <li>Caramelized Onion</li>
+            <li>Gherkin</li>
+            <li>Chipotle Mayo</li>
+            <li>Brioche Bun</li>
+          </ul>
+          <p>$9.99</p>
+        </div>
+        <div id="premium">
+          <h3>Truffle Burger</h3>
+          <ul>
+            <li>USDA Certified Black Angus Beef</li>
+            <li>Truffle Mayo</li>
+            <li>American Cheese</li>
+            <li>Sauteed Mushroom</li>
+            <li>Spanish Onion</li>
+            <li>Potato Bun</li>
+          </ul>
+          <p>$11.99</p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <section id="hero">
+        <h4>Drop email for business enquiries</h4>
+        <form id="form" action="">
+          <input
+            name="email"
+            id="email"
+            type="text"
+            placeholder="Enter your email address"
+            required
+          />
+          <input id="submit" type="submit" value="Submit" class="btn" />
+        </form>
+      </section>
+    </footer>
+    <!-- Feather icons -->
+    <script>
+      feather.replace();
+      </script>
+    <!-- Javascript -->
+    <script src="index.js"></script>
+  </body>
+</html>
